@@ -1,0 +1,120 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo', serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+
+/* Header */
+.header {
+  color: #fff;
+  background-image: url("cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 220px;
+}
+
+.header h1{
+  margin-top: 140px;
+  text-decoration: bold;
+  font-size: 40px;
+}
+
+.header img{
+  margin-top: 60px;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 6px;
+
+}
+
+/* Banner */
+.sites{
+  padding-top: 50px;
+  color: #fff;
+  background-color: #005580;  
+}
+
+.sites h2{
+  text-align: center;
+  color: #fff;
+}
+
+.sites .row{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.sites .row img{
+  border-radius: 100px;
+  width: 20%;
+  height: 20%;
+  float: right;
+  clear: left;
+  opacity: 0.7;
+}
+
+.sites .row p{
+  color: #ffffff;
+}
+
+.sites .row a{
+  color: #ffffff;
+  text-decoration: none;
+}
+.sites .row a:hover{
+  color: #333;
+  transition : .3s;
+}
+
+.sites .row img:hover{
+  opacity: 1;
+  transition:.5s;
+}
+
+
+
+/* Media Queries */
+@media (max-width: 680px) {
+  .header h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .nav {
+    float: none;
+    margin: 0 auto;
+  }
+  .banner {
+    height: 220px;
+  }
+
+  .nav-pills li:first-child a  {
+    margin-left: 0;
+  }
+}
+
+.section .container {
+    
+  }
+
+.section .row a{
+    
+  }
+
+.footer {
+    
+  }
+
+.footer a{
+    
+  }
+.footer a:hover{
+  
+}
